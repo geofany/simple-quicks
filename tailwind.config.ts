@@ -21,6 +21,7 @@ export default <Partial<Config>>{
           dark: "#4F4F4F",
           darkGray: "#828282",
           gray: "#E0E0E0",
+          white: "#F2F2F2",
         },
         indicator: {
           orange: "#F8B76B",

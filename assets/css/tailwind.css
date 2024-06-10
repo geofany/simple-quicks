@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: "Lato", sans-serif;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .3s ease-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-in-enter-active,
+.fade-in-leave-active {
+  pointer-events: none;
+  transition: opacity .15s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.fade-in-enter,
+.fade-in-leave-to {
+  opacity: 0;
+}
